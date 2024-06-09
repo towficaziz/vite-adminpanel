@@ -1,3 +1,50 @@
 .navbar{
-    
+    width: 100%;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    .logo{
+        display: flex;
+        align-items: center;
+        font-weight: bold;
+        gap: 10px;
+    }
+
+    .icons{
+        display: flex;
+        align-items: center;
+        gap: 20px;
+
+        .notification{
+            position: relative;
+
+            span{
+                background-color: red;
+                color: white;
+                width: 20px;
+                height: 20px;
+                border-radius: 50%;
+                position: absolute;
+                top: -15px;
+                right: -15px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                font-size: 12px;
+
+            }
+        }
+
+        .users{
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            
+            img{
+
+            }
+        }
+    }
 }
