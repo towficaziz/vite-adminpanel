@@ -17,5 +17,16 @@
             margin-top: 10px;
             object-fit: cover;
         }
+
+        .action{
+            display: flex;
+            gap: 5px;
+
+            img{
+                width: 20px;
+                height: 20px;
+                cursor: pointer;
+            }
+        }
     }
 }
