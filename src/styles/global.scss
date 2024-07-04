@@ -1,4 +1,5 @@
 @import "./variables.scss";
+@import "./responsive.scss";
 
 * {
   margin: 0;
@@ -19,6 +20,23 @@ a {
 
 .container{
   display: flex;
+
+  @include xxl{
+    background-color: rgb(95, 95, 133);
+  }
+  @include xl{
+    background-color: rgb(145, 146, 117);
+  }
+  @include lg{
+    background-color: rgb(68, 68, 80);
+  }
+  @include md{
+    background-color: rgb(77, 103, 117);
+  }
+  @include sm{
+    background-color: rgb(124, 102, 112);
+  }
+  
 }
 
 .menuContainer{
